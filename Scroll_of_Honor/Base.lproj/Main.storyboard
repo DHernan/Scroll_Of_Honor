@@ -1,0 +1,1894 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ahU-cv-Vca">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--The Scroll of Honor History-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="The Scroll of Honor History" id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editedPhotoThing.png" translatesAutoresizingMaskIntoConstraints="NO" id="tRC-8y-nNh">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8es-ut-Hpg">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ln8-y4-nFb">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="536"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNJ-9c-bpK">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" red="0.25328576907691941" green="0.075745737039799005" blue="0.46197533700980387" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">There are 484 names on the Scroll of Honor from nine wars and campaigns. Each hero has his own story. These are a few:
+Scroll of Honor casualties by war:• WW I - 27; Nicaraguan Campaign – 1; WW II – 376; Korean War -19;
+Cuban Missile Crisis – 1; Vietnam War – 31, The Cold War – 26;   
+Global War on Terrorism - 3
+
+World War I:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="• ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">When the US declared war on Germany, the entire senior class of 1917 volunteered en masse to President Woodrow Wilson to serve in the military.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Of the 27 Alumni on the Scroll of Honor, 12 died of the Spanish influenza or pneumonia during the world wide epidemic of that period. </string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Private Robert Atkinson">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1291"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">, a member of the Student Training Corps died in Clemson. Two died from poison gas.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Three Infantrymen received the Distinguished Service Cross, this nation’s second highest award and two received Silver Stars. Several served in the US Army Air Service and one was in the Royal Air Force. (Two alumni, who served but were not killed in WWI, received the Medal of Honor.)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Second Lieutenant ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Robert Bailey">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1290"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> from Anderson attended Clemson in 1904 and dropped out after one or two semesters. At age 32, he enlisted in the 118th Infantry, 30th Infantry Division, South Carolina National Guard. He was promoted to Sergeant and assigned to border patrol along the Mexican border. When the US became committed to WWI he deployed with the Division to France and was in all of its engagements. He received a Battle Field commission to Second Lieutenant and was killed 12 days later. He received the Distinguished Service Cross for extraordinary heroism.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Nicaraguan Campaign:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Lieutenant James McHugh">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1175"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">, USMC, Class of 1923, from Clemson was killed in a plane crash while he was piloting a recon mission. He once flew escort for Charles Lindbergh down the Potomac.  Lindbergh later visited Lt. McHugh and his family in Nicaragua.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">World War II:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">At least eight alumni were in the Bataan Death March. Five of these are on the Scroll of Honor. Four were killed aboard Japanese Hell Ships that were sunk by the US Navy (</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Martin Crook ’39">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1082"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=", Spartanburg; ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Francis Scarborough ’39">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1101"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=", Wisacky; ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Otis Morgan ’37">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1050"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=", Wellford; and ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="William English">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <url key="NSLink" string="https://cualumni.clemson.edu/page.aspx?pid=1426"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.5607843137254902" green="0.23921568627450981" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> ’37, Columbia) and one (Henry Leitner ’37, Greenwood) died of pneumonia imprisoned in Japan. The following alumni survived the Death March: Ben Skardon, Manny Lawton, and Albert George.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Two alumni were killed July11, 1943 when the C-47 transports they were in were shot down. They were a part of a 144 plane formation that lost 23 that were downed that day by friendly fire from US Navy units. Captain Walter S. Nelson, Class of 1939 from Savannah, was a pilot and Major Tracy Jackson, Class of 1934 from Greenwood, was an observer in separate C-47’s. The returning aircraft had carried elements of the 82nd Airborne Division that had made their combat jump as a part of Operation Husky, the invasion of Sicily.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">PFC David Crawford Jr. Class of 1945 from Winnsboro enlisted during his sophomore year at Clemson and was assigned to 29th Infantry Division. He was killed in action June 7, 1944 the day after his unit landed on Omaha Beach.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Of the approximately 540 freshmen that that enrolled in 1938, Fifty seven members of the Class of 1941 were killed in the war. A remarkable incident occurred on Ie Shima island, three miles west of Okinawa on April 19, 1945.  Two 1941 class members, Walter Bennett form Orangeburg and Marion Jenkins, Yonges Island SC, were killed by the same Japanese mortar shell.  Bennett was the commander of H Company, 307th Infantry Regiment, 77th Division and Jenkins was H Company’s executive officer.  Jenkins was killed instantly.  Bennett died the following day.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">With respect to athletics, Aubrey Rion, Class of 1941 from Richland County, who quarterbacked the Tigers in the 1939 Cotton Bowl game against Boston College, was a lieutenant assigned to the 501st Parachute Infantry Regiment, 101st Airborne Division.  He was killed defending Bastogne, Belgium during the Battle of the Bulge on December 20, 1944.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Lieutenant Colonel Aquilla Dyess, USMC Class of 1932 from Augusta, received the Medal of Honor for action in the Battle of Kwajalein on the Marshall Islands. He is also the only American to receive both the Carnegie Medal for civilian heroism and the Medal of Honor. In 1929, he received the Carnegie Medal for saving two swimmers off the coast of South Carolina the previous year.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Five sets of brothers are on the Scroll of Honor. David and Rufus Henry, Classes of '36 and '41 were from Clemson. John and Benjamin McKnight, Classes of '40 and '41; from Kannapolis, North Carolina were members of Clemson's Southern Conference Championship Swim Team. Tourie and Dibble Rickenbaker Classes of '43 and ’44 were from Summerton. Claude and Bob Lawson Classes of ’44 and ’45 were form Birmingham, Alabama. Edward and James Norton, Class of 1942, were twin brothers from Conway. They were pilot and navigator in the same bomber shot down returning from a mission over Germany.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Korean War:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Seven of the 17 on the Scroll received Silver Stars.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Herbert and Vivian Moses, Class of ’44 from Sumter were identical twins. Their junior year they joined the Marine Corps and received commissioning training. Both requested flight training. After the war in 1947 Herb decided to leave the service to continue his education. Viv wanted to make the Marine Corps a career. On August 10, 1950 Captain Vivian Moses’, Corsair fighter was shot down by ground fire but he was rescued by helicopter. The following day while on a combat mission of strafing enemy positions his aircraft received a direct hit by anti-aircraft fire and crash landed. He was the first Marine pilot and first Clemson man killed in the Korean War.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Major Malcomb Edens, Class of 1947 from Miami, an Air Force pilot, was POW of the North Koreans. Bill Funchess, ‘48, reported that a fellow POW told him that he had been with Malcomb Edens when he died. He removed Edens Clemson ring in hope that he could return it to his family but a communist soldier confiscated the ring and it was probably lost forever. Captain Raymond Sloan, Class of 1939 from Marion, was the first Clemson Alumni to die in WWII. His ring was removed by a Japanese soldier and eventually pawned. Years later a Clemson graduate discovered the ring and redeemed the pawn. It was returned to Clemson. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Col Wesley Platt, USMC, Class of 1935 from Summerville, was killed in action in Korea. During WWII he was decorated for his part in the defense of Wake Island and was a POW of the Japanese for the duration of the war.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Cuban Missile Crisis:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Major Rudolph “Rudy” Anderson, US Air Force Class of 1949, from Greenville was the only causality of the crisis. His U-2 spy plane was shot down over Cuba during a photo recon mission.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vietnam:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">First Lieutenant Douglas MacArthur McCrary, 1st Calvary Division from Greenville received the Distinguished Service Cross (Posthumously) for action on February 16, 1967. His Platoon came under intensive enemy fire. An extract from the award citation reads: “Seeing one stricken man lying exposed across a dike, he tossed a smoke grenade to provide cover and then charged forward through a hail of insurgent bullets. But as he started to pull the man to safety, the smoke dissipated and Lieutenant McCrary was mortally wounded.” 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Major William “Monkey” Coats, US Army, Class of 1957 from Chappells S.C., was killed in a helicopter crash June 1, 1967. He carried the nickname “Monkey” because he was such a cut up and always having fun. Colonel H. Lamar Hunt, Chaplain Retired wrote “I lived across the street from Monkey when he was in the advanced course of his branch at Fort Benning, Georgia. It was my first assignment as a chaplain. I wrote a song about him that I called "The Ballad of Monkey Jones."
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Colonel Albert Smarr Class of 1950 from Hickory Grove, S. C. is the only honoree that served in WWII, Korea, and Vietnam. He enlisted in the Army Air Force in World War II, a B-17 gunner and radio operator; was shot down over Berlin and taken prisoner.  He was freed when the Russian Army liberated Berlin. Following graduation and commissioning at Clemson, he served with the 89th Tank Battalion in Korea.  During his second tour to Vietnam he was killed in February 1972 in a helicopter crash. In December 1972, a building at Fort Monmouth, New Jersey where he had served as a Signal School instructor was named in his honor.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Lieutenant Jesse Rutledge Baker, USMC, Class of 1965 from Whitmire, was assigned to the 7th Engineer Battalion, 1st Marines, near Da Nang.  He wore a white shirt all the time to indicate he was an officer and to draw fire so his Battalion machine gunners could spot the muzzle flashes.  His men claim he had some close calls, but was never hit.  He was killed in August 1967 when his jeep hit a mine.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">First Lieutenant Gary Pace, Army Engineer Corps, Class of 1969 from Easley, was killed in ground action in Vietnam in March 1971.  He received the Silver Star for his action in attempting to repel an assault by enemy sappers at a Fire Support Base near the Cambodian border.  After his death, a new Fire Support Base was named FSB Pace in his honor.
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Iraq:
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">	•	</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Lance Corporal Andrew Zabierek, USMC, from Chelmsford Massachusetts graduated from Clemson in 2000 with a degree in Business. The September 11 attack on the World Trade Center troubled him greatly and he wanted to serve his country. He could have been an officer but volunteered to be an enlisted man. He died May 21, 2004 due to hostile action in Al Anbar Province, Iraq.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="AvenirNext-Regular"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" headIndent="36" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="11">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="natural" location="36">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25098039220000001" green="0.10980392160000001" blue="0.42745098040000001" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8es-ut-Hpg" secondAttribute="trailing" id="3SV-Nl-wmf"/>
+                            <constraint firstItem="tRC-8y-nNh" firstAttribute="top" secondItem="dNJ-9c-bpK" secondAttribute="top" id="6tp-aG-1WW"/>
+                            <constraint firstItem="dNJ-9c-bpK" firstAttribute="leading" secondItem="tRC-8y-nNh" secondAttribute="leading" id="9dc-30-0a6"/>
+                            <constraint firstItem="tRC-8y-nNh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FDF-vh-BuX"/>
+                            <constraint firstItem="8es-ut-Hpg" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="QJi-9C-hwu"/>
+                            <constraint firstItem="tRC-8y-nNh" firstAttribute="trailing" secondItem="dNJ-9c-bpK" secondAttribute="trailing" id="UdE-I8-n6g"/>
+                            <constraint firstItem="8es-ut-Hpg" firstAttribute="leading" secondItem="tRC-8y-nNh" secondAttribute="leading" id="bA6-XX-cyC"/>
+                            <constraint firstItem="tRC-8y-nNh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ccJ-vl-JKG"/>
+                            <constraint firstItem="dNJ-9c-bpK" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="eD4-YQ-vtn"/>
+                            <constraint firstItem="tRC-8y-nNh" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="icX-e5-9M6"/>
+                            <constraint firstItem="8es-ut-Hpg" firstAttribute="trailing" secondItem="tRC-8y-nNh" secondAttribute="trailing" id="nb6-yq-09R"/>
+                            <constraint firstItem="8es-ut-Hpg" firstAttribute="top" secondItem="dNJ-9c-bpK" secondAttribute="top" id="ySC-L5-hmB"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="-835"/>
+        </scene>
+        <!--Honoree-->
+        <scene sceneID="eYq-ef-4wk">
+            <objects>
+                <tableViewController title="Honoree" id="D7d-nq-7wM" customClass="HonoreeTableViewController" customModule="Scroll_of_Honor" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="28" sectionFooterHeight="28" id="Lq0-5N-AB2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="P7D-Eb-S14">
+                            <rect key="frame" x="0.0" y="64" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVa-Da-09t">
+                                    <rect key="frame" x="0.0" y="8" width="600" height="36"/>
+                                    <state key="normal" title="Use Location At Scroll"/>
+                                    <connections>
+                                        <action selector="useBeaconsButton:" destination="D7d-nq-7wM" eventType="touchUpInside" id="83R-pF-74q"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="OVa-Da-09t" firstAttribute="leading" secondItem="P7D-Eb-S14" secondAttribute="leading" id="8qG-gH-lQO"/>
+                                <constraint firstItem="OVa-Da-09t" firstAttribute="top" secondItem="P7D-Eb-S14" secondAttribute="topMargin" id="Vtb-kL-xWt"/>
+                                <constraint firstAttribute="trailing" secondItem="OVa-Da-09t" secondAttribute="trailing" id="sua-ix-wjw"/>
+                                <constraint firstAttribute="bottom" secondItem="OVa-Da-09t" secondAttribute="bottom" id="usH-Sa-1B3"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HonoreeTableViewCell" rowHeight="75" id="49d-3c-Xuj" customClass="HonoreeTableViewCell" customModule="Scroll_of_Honor" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="136" width="600" height="75"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="49d-3c-Xuj" id="ta4-K5-lTn">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="74.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defSoldPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="3Wa-cX-vfK">
+                                            <rect key="frame" x="8" y="0.0" width="67" height="67"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="67" id="F9P-Tn-oVw"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Name]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TEh-zo-2dK">
+                                            <rect key="frame" x="83" y="8" width="416" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="21" id="1go-EL-lvp"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Rank] in [War]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="bqQ-ts-48q">
+                                            <rect key="frame" x="83" y="46" width="509" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[Class Year]" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Esy-2v-sCe">
+                                            <rect key="frame" x="507" y="8" width="85" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="85" id="UrL-ve-nXy"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="TEh-zo-2dK" firstAttribute="top" secondItem="ta4-K5-lTn" secondAttribute="topMargin" id="2se-Fr-hxL"/>
+                                        <constraint firstItem="bqQ-ts-48q" firstAttribute="leading" secondItem="TEh-zo-2dK" secondAttribute="leading" id="3jo-x0-sLk"/>
+                                        <constraint firstItem="bqQ-ts-48q" firstAttribute="trailing" secondItem="ta4-K5-lTn" secondAttribute="trailingMargin" id="7Qo-2w-VFk"/>
+                                        <constraint firstItem="bqQ-ts-48q" firstAttribute="top" secondItem="TEh-zo-2dK" secondAttribute="bottom" constant="17" id="80h-lu-DcF"/>
+                                        <constraint firstItem="3Wa-cX-vfK" firstAttribute="top" secondItem="ta4-K5-lTn" secondAttribute="top" id="RpE-Ay-gEF"/>
+                                        <constraint firstItem="3Wa-cX-vfK" firstAttribute="leading" secondItem="ta4-K5-lTn" secondAttribute="leadingMargin" id="Saz-Fd-E3n"/>
+                                        <constraint firstItem="Esy-2v-sCe" firstAttribute="trailing" secondItem="bqQ-ts-48q" secondAttribute="trailing" id="VWU-Rg-zGA"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="3Wa-cX-vfK" secondAttribute="bottom" constant="-0.5" id="ach-Cw-j24"/>
+                                        <constraint firstItem="Esy-2v-sCe" firstAttribute="leading" secondItem="TEh-zo-2dK" secondAttribute="trailing" constant="8" symbolic="YES" id="b30-fP-Vp5"/>
+                                        <constraint firstItem="Esy-2v-sCe" firstAttribute="firstBaseline" secondItem="TEh-zo-2dK" secondAttribute="firstBaseline" id="fyl-8D-Xqs"/>
+                                        <constraint firstItem="TEh-zo-2dK" firstAttribute="leading" secondItem="3Wa-cX-vfK" secondAttribute="trailing" constant="8" symbolic="YES" id="gKm-ud-Lln"/>
+                                        <constraint firstItem="bqQ-ts-48q" firstAttribute="bottom" secondItem="3Wa-cX-vfK" secondAttribute="bottom" id="kNH-co-PTo"/>
+                                        <constraint firstItem="Esy-2v-sCe" firstAttribute="baseline" secondItem="TEh-zo-2dK" secondAttribute="baseline" id="rai-5a-qQ5"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="TEh-zo-2dK" id="FsU-xJ-S9u"/>
+                                    <outlet property="photoImageView" destination="3Wa-cX-vfK" id="OwX-Ru-dom"/>
+                                    <outlet property="rankWarLabel" destination="bqQ-ts-48q" id="6nT-4R-aOf"/>
+                                    <outlet property="yearLabel" destination="Esy-2v-sCe" id="4xN-o4-fv6"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="D7d-nq-7wM" id="dbL-ea-iBU"/>
+                            <outlet property="delegate" destination="D7d-nq-7wM" id="PUD-MO-7QN"/>
+                        </connections>
+                    </tableView>
+                    <extendedEdge key="edgesForExtendedLayout" top="YES"/>
+                    <tabBarItem key="tabBarItem" title="Honorees" image="honoreeTabIcon" id="Owz-rA-ZgX"/>
+                    <connections>
+                        <outlet property="floatingView" destination="P7D-Eb-S14" id="i5b-QG-Oyg"/>
+                        <outlet property="table" destination="Lq0-5N-AB2" id="7Lp-b3-uBs"/>
+                        <outlet property="useBeaconsButtonText" destination="OVa-Da-09t" id="OkE-kE-dvl"/>
+                        <segue destination="n6d-92-h67" kind="show" identifier="HonSegue" id="dAQ-3f-Qsd"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cUm-91-ggV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123" y="723"/>
+        </scene>
+        <!--John W. Hollowell-->
+        <scene sceneID="Tiw-Pp-Ms5">
+            <objects>
+                <viewController title="John W. Hollowell" id="n6d-92-h67" customClass="IndividualViewController" customModule="Scroll_of_Honor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mbs-bW-38g"/>
+                        <viewControllerLayoutGuide type="bottom" id="WCI-QR-oxf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5aW-Rq-vxM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VtU-JE-fJd">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I5r-rx-b6u">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="PCf-Nj-SHi">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cfl-dE-e5e">
+                                            <rect key="frame" x="20" y="133" width="560" height="339"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="339" id="n9k-XA-YTx"/>
+                                            </constraints>
+                                            <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        </textView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="cfl-dE-e5e" secondAttribute="bottom" constant="15" id="AdF-I4-Zhn"/>
+                                        <constraint firstItem="cfl-dE-e5e" firstAttribute="centerX" secondItem="PCf-Nj-SHi" secondAttribute="centerX" id="lz7-lg-awf"/>
+                                        <constraint firstItem="cfl-dE-e5e" firstAttribute="leading" secondItem="PCf-Nj-SHi" secondAttribute="leading" constant="20" id="vDm-Ym-ed4"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zwC-De-Yu2">
+                                <rect key="frame" x="20" y="72" width="560" height="118"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VtU-JE-fJd" firstAttribute="bottom" secondItem="WCI-QR-oxf" secondAttribute="top" id="0CW-Fp-wpM"/>
+                            <constraint firstItem="zwC-De-Yu2" firstAttribute="leading" secondItem="5aW-Rq-vxM" secondAttribute="leadingMargin" id="4kT-a2-pYr"/>
+                            <constraint firstItem="VtU-JE-fJd" firstAttribute="top" secondItem="Mbs-bW-38g" secondAttribute="bottom" id="D6X-cZ-uAq"/>
+                            <constraint firstAttribute="trailing" secondItem="VtU-JE-fJd" secondAttribute="trailing" id="TFo-G7-nOT"/>
+                            <constraint firstItem="WCI-QR-oxf" firstAttribute="top" secondItem="zwC-De-Yu2" secondAttribute="bottom" constant="361" id="ayn-QC-cdI"/>
+                            <constraint firstItem="VtU-JE-fJd" firstAttribute="top" secondItem="I5r-rx-b6u" secondAttribute="top" id="bjh-18-fy8"/>
+                            <constraint firstItem="zwC-De-Yu2" firstAttribute="top" secondItem="Mbs-bW-38g" secondAttribute="bottom" constant="8" symbolic="YES" id="bp5-2a-fwp"/>
+                            <constraint firstItem="VtU-JE-fJd" firstAttribute="trailing" secondItem="I5r-rx-b6u" secondAttribute="trailing" id="eZB-FO-2yg"/>
+                            <constraint firstItem="zwC-De-Yu2" firstAttribute="centerX" secondItem="VtU-JE-fJd" secondAttribute="centerX" id="ely-mO-GAo"/>
+                            <constraint firstItem="I5r-rx-b6u" firstAttribute="bottom" secondItem="WCI-QR-oxf" secondAttribute="top" id="n52-5I-MT0"/>
+                            <constraint firstItem="I5r-rx-b6u" firstAttribute="leading" secondItem="5aW-Rq-vxM" secondAttribute="leading" id="qiS-gO-9JK"/>
+                            <constraint firstItem="I5r-rx-b6u" firstAttribute="leading" secondItem="VtU-JE-fJd" secondAttribute="leading" id="z1F-zG-TOk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="img" destination="zwC-De-Yu2" id="NAM-wr-AbF"/>
+                        <outlet property="imgBack" destination="VtU-JE-fJd" id="Ncs-f2-0Te"/>
+                        <outlet property="textBox" destination="cfl-dE-e5e" id="ZkV-XQ-7Vj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aXt-SQ-zic" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1897" y="723"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="fu9-hw-fY5">
+            <objects>
+                <viewController title="Map" id="QtS-hD-KGx" customClass="MapViewController" customModule="Scroll_of_Honor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OHW-8a-ZMn"/>
+                        <viewControllerLayoutGuide type="bottom" id="eqE-LM-UYQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wT2-zw-1q7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="hmu-ex-t1z">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                            </mapView>
+                            <visualEffectView opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Fp-P9-wlV">
+                                <rect key="frame" x="0.0" y="64" width="600" height="45"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7ge-XZ-AeO">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="45"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="PPv-1u-45j"/>
+                                </constraints>
+                                <blurEffect style="light"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sTK-Eo-QYv">
+                                <rect key="frame" x="0.0" y="64" width="600" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="8dy-xa-X8j"/>
+                                </constraints>
+                                <state key="normal" title="&quot;I'm at the Scroll of Honor&quot;">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sQB-tX-IGJ" kind="show" id="8Yg-hS-abm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="5Fp-P9-wlV" firstAttribute="leading" secondItem="hmu-ex-t1z" secondAttribute="leading" id="Cvs-Qp-XNY"/>
+                            <constraint firstItem="5Fp-P9-wlV" firstAttribute="leading" secondItem="sTK-Eo-QYv" secondAttribute="leading" id="FiY-UG-Ejt"/>
+                            <constraint firstItem="hmu-ex-t1z" firstAttribute="bottom" secondItem="eqE-LM-UYQ" secondAttribute="top" id="JJI-bK-CCU"/>
+                            <constraint firstItem="hmu-ex-t1z" firstAttribute="leading" secondItem="wT2-zw-1q7" secondAttribute="leading" id="U4Y-Gs-sXN"/>
+                            <constraint firstItem="5Fp-P9-wlV" firstAttribute="top" secondItem="OHW-8a-ZMn" secondAttribute="bottom" id="UBj-rr-mCI"/>
+                            <constraint firstItem="5Fp-P9-wlV" firstAttribute="trailing" secondItem="hmu-ex-t1z" secondAttribute="trailing" id="ULv-s7-jkT"/>
+                            <constraint firstAttribute="trailing" secondItem="hmu-ex-t1z" secondAttribute="trailing" id="e2L-ok-0Eg"/>
+                            <constraint firstItem="sTK-Eo-QYv" firstAttribute="trailing" secondItem="5Fp-P9-wlV" secondAttribute="trailing" id="kjF-Pf-c8b"/>
+                            <constraint firstItem="hmu-ex-t1z" firstAttribute="top" secondItem="wT2-zw-1q7" secondAttribute="top" id="mv1-z0-Xrb"/>
+                            <constraint firstItem="sTK-Eo-QYv" firstAttribute="top" secondItem="5Fp-P9-wlV" secondAttribute="top" id="yTH-qe-OBV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="mapTabIcon" selectedImage="mapTabIcon" id="0WP-Yx-L8R"/>
+                    <connections>
+                        <outlet property="mapView" destination="hmu-ex-t1z" id="8cN-Vh-OpL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3n-WR-hPP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1194" y="45"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="cOz-a9-EtS">
+            <objects>
+                <navigationController id="ahU-cv-Vca" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xRI-py-IiI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="qIb-hO-SOy" kind="relationship" relationship="rootViewController" id="Dov-66-5ak"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbg-rT-ZUv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1200" y="-124"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="6LR-Wu-W3T">
+            <objects>
+                <viewController id="qIb-hO-SOy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PHx-5z-wVf"/>
+                        <viewControllerLayoutGuide type="bottom" id="gBX-65-AeH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="N0s-b0-RhP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editedPhotoThing.png" translatesAutoresizingMaskIntoConstraints="NO" id="cev-fl-Hl6">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNa-zL-clL">
+                                <rect key="frame" x="182" y="284" width="237" height="31"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="QzF-0f-17f">
+                                    <rect key="frame" x="0.0" y="0.0" width="237" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="237" id="DQF-5b-FAS"/>
+                                </constraints>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qDY-Jb-8R2">
+                                <rect key="frame" x="182" y="285" width="237" height="30"/>
+                                <color key="backgroundColor" red="0.044409610331058502" green="0.64186513423919678" blue="0.9245874285697937" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                <state key="normal" title="Learn more about the Scroll">
+                                    <color key="titleColor" red="0.25098039215686274" green="0.10980392156862745" blue="0.42745098039215684" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Z92-s1-G3i"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5x-Lg-z3G">
+                                <rect key="frame" x="182" y="336" width="237" height="31"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B6i-E2-8A4">
+                                    <rect key="frame" x="0.0" y="0.0" width="237" height="31"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fg7-iG-bbS">
+                                <rect key="frame" x="182" y="336" width="237" height="30"/>
+                                <color key="backgroundColor" red="0.044409610331058502" green="0.64186513423919678" blue="0.9245874285697937" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="15"/>
+                                <state key="normal" title="Take a Tour">
+                                    <color key="titleColor" red="0.25098039220000001" green="0.10980392160000001" blue="0.42745098040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t6g-As-X69" kind="show" id="Nu6-sC-MhL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scroll Of Honor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UoP-Zp-40a">
+                                <rect key="frame" x="0.0" y="165" width="600" height="43"/>
+                                <color key="backgroundColor" red="0.96786204915714313" green="0.96582455365571784" blue="1" alpha="0.80408044763513509" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="37"/>
+                                <color key="textColor" red="1" green="0.49458744136100952" blue="0.0075954667625713901" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cev-fl-Hl6" firstAttribute="bottom" secondItem="gBX-65-AeH" secondAttribute="top" id="4QJ-qB-m72"/>
+                            <constraint firstItem="Fg7-iG-bbS" firstAttribute="top" secondItem="T5x-Lg-z3G" secondAttribute="top" id="7qf-uN-67H"/>
+                            <constraint firstItem="CNa-zL-clL" firstAttribute="trailing" secondItem="qDY-Jb-8R2" secondAttribute="trailing" id="A1N-eS-8ru"/>
+                            <constraint firstItem="cev-fl-Hl6" firstAttribute="leading" secondItem="UoP-Zp-40a" secondAttribute="leading" id="AHW-89-gDg"/>
+                            <constraint firstItem="Fg7-iG-bbS" firstAttribute="trailing" secondItem="qDY-Jb-8R2" secondAttribute="trailing" id="FJn-La-izn"/>
+                            <constraint firstItem="CNa-zL-clL" firstAttribute="top" secondItem="UoP-Zp-40a" secondAttribute="bottom" constant="76" id="GRc-e0-TfF"/>
+                            <constraint firstItem="T5x-Lg-z3G" firstAttribute="trailing" secondItem="Fg7-iG-bbS" secondAttribute="trailing" id="H1V-m5-Hs6"/>
+                            <constraint firstItem="cev-fl-Hl6" firstAttribute="top" secondItem="N0s-b0-RhP" secondAttribute="top" id="Itd-hp-EgV"/>
+                            <constraint firstItem="CNa-zL-clL" firstAttribute="bottom" secondItem="qDY-Jb-8R2" secondAttribute="bottom" id="Ldi-me-zQi"/>
+                            <constraint firstItem="UoP-Zp-40a" firstAttribute="trailing" secondItem="cev-fl-Hl6" secondAttribute="trailing" id="TOk-Nq-Iuf"/>
+                            <constraint firstItem="qDY-Jb-8R2" firstAttribute="leading" secondItem="CNa-zL-clL" secondAttribute="leading" id="V72-Ax-GRh"/>
+                            <constraint firstItem="qDY-Jb-8R2" firstAttribute="centerY" secondItem="CNa-zL-clL" secondAttribute="centerY" id="Yet-BT-WdO"/>
+                            <constraint firstItem="Fg7-iG-bbS" firstAttribute="centerY" secondItem="T5x-Lg-z3G" secondAttribute="centerY" id="Zra-yE-sqn"/>
+                            <constraint firstItem="cev-fl-Hl6" firstAttribute="centerY" secondItem="CNa-zL-clL" secondAttribute="centerY" id="c26-aj-ZWI"/>
+                            <constraint firstItem="UoP-Zp-40a" firstAttribute="centerX" secondItem="qDY-Jb-8R2" secondAttribute="centerX" id="eot-6d-fgh"/>
+                            <constraint firstItem="Fg7-iG-bbS" firstAttribute="leading" secondItem="qDY-Jb-8R2" secondAttribute="leading" id="fyl-hf-fai"/>
+                            <constraint firstAttribute="trailing" secondItem="UoP-Zp-40a" secondAttribute="trailing" id="nov-1R-OS5"/>
+                            <constraint firstItem="UoP-Zp-40a" firstAttribute="leading" secondItem="N0s-b0-RhP" secondAttribute="leading" id="t4e-0n-YEj"/>
+                            <constraint firstItem="T5x-Lg-z3G" firstAttribute="leading" secondItem="Fg7-iG-bbS" secondAttribute="leading" id="ykV-Ea-PWj"/>
+                            <constraint firstItem="Fg7-iG-bbS" firstAttribute="top" secondItem="qDY-Jb-8R2" secondAttribute="bottom" constant="21" id="zUZ-Dx-re8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="h2V-F8-1Bt"/>
+                    <navigationItem key="navigationItem" id="0Ic-AM-MkJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdC-4t-AgA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-310" y="-124"/>
+        </scene>
+        <!--Tour-->
+        <scene sceneID="IyK-qS-mq1">
+            <objects>
+                <tabBarController title="Tour" id="t6g-As-X69" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="oin-dI-C4U">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QtS-hD-KGx" kind="relationship" relationship="viewControllers" id="XD1-pp-ODd"/>
+                        <segue destination="D7d-nq-7wM" kind="relationship" relationship="viewControllers" id="cxI-7c-Qc7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pnf-j8-LhO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="374" y="373"/>
+        </scene>
+        <!--Interactive View Controller-->
+        <scene sceneID="gFs-oi-Znx">
+            <objects>
+                <viewController id="sQB-tX-IGJ" customClass="InteractiveViewController" customModule="Scroll_of_Honor" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RJ7-iu-UcA"/>
+                        <viewControllerLayoutGuide type="bottom" id="aIX-1p-OlM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vJr-EH-4Mm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="editedPhotoThingBlurred.png" translatesAutoresizingMaskIntoConstraints="NO" id="j1O-pO-zTk">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PQm-am-WLH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Y8c-E6-1sT">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <visualEffectView opaque="NO" alpha="0.0" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mZw-3C-XcF">
+                                <rect key="frame" x="0.0" y="199" width="600" height="51"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="THp-n9-h6J">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="51"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="400" verticalHuggingPriority="400" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoZ-HG-dkR">
+                                <rect key="frame" x="532" y="189" width="48" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="dMQ-Oy-6Yx"/>
+                                    <constraint firstAttribute="width" constant="46" id="nX3-Fi-hZ9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="➡︎">
+                                    <color key="titleColor" red="1" green="0.72562167290000001" blue="0.53049441990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="dMQ-Oy-6Yx"/>
+                                        <exclude reference="nX3-Fi-hZ9"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="rotateRight:" destination="sQB-tX-IGJ" eventType="touchUpInside" id="ajK-y0-enF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="400" verticalHuggingPriority="400" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4f-lc-sKX">
+                                <rect key="frame" x="20" y="189" width="45" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="47" id="6lb-gN-k5a"/>
+                                    <constraint firstAttribute="width" constant="46" id="95u-pP-1sR"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="Dwu-PJ-bQt"/>
+                                    <constraint firstAttribute="height" constant="51" id="No8-gv-vjf"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="47" id="rI3-Dh-YdG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                                <state key="normal" title="⬅︎">
+                                    <color key="titleColor" red="1" green="0.72562167290000001" blue="0.53049441990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6lb-gN-k5a"/>
+                                        <exclude reference="95u-pP-1sR"/>
+                                        <exclude reference="Dwu-PJ-bQt"/>
+                                        <exclude reference="No8-gv-vjf"/>
+                                        <exclude reference="rI3-Dh-YdG"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="rotateLeft:" destination="sQB-tX-IGJ" eventType="touchUpInside" id="gBp-EJ-6R3"/>
+                                </connections>
+                            </button>
+                            <containerView autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="730" translatesAutoresizingMaskIntoConstraints="NO" id="Lgi-fh-5HW">
+                                <rect key="frame" x="0.0" y="267" width="600" height="284"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="305" id="3ee-qY-kVm"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="3ee-qY-kVm"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <segue destination="GVa-IZ-9Xn" kind="embed" identifier="embedd" id="iCR-wi-O8T"/>
+                                </connections>
+                            </containerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowWhite.png" translatesAutoresizingMaskIntoConstraints="NO" id="cM5-tU-Bqz">
+                                <rect key="frame" x="275" y="199" width="51" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="51" id="BAC-I2-oKy"/>
+                                    <constraint firstAttribute="height" constant="51" id="ta7-6I-S0k"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compassv3.png" translatesAutoresizingMaskIntoConstraints="NO" id="c4L-Qf-SCy">
+                                <rect key="frame" x="150" y="-122" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="c4L-Qf-SCy" secondAttribute="height" multiplier="1:1" id="4RR-Oz-VzZ"/>
+                                    <constraint firstAttribute="height" constant="300" id="6m5-Qu-Un1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="centerX" secondItem="cM5-tU-Bqz" secondAttribute="centerX" id="25D-fo-IBS"/>
+                            <constraint firstItem="PQm-am-WLH" firstAttribute="top" secondItem="vJr-EH-4Mm" secondAttribute="top" id="4Y5-Qo-fG7"/>
+                            <constraint firstItem="c4f-lc-sKX" firstAttribute="leading" secondItem="vJr-EH-4Mm" secondAttribute="leadingMargin" id="7Ia-eW-BzZ"/>
+                            <constraint firstItem="j1O-pO-zTk" firstAttribute="trailing" secondItem="PQm-am-WLH" secondAttribute="trailing" id="7rj-vV-awb"/>
+                            <constraint firstItem="j1O-pO-zTk" firstAttribute="bottom" secondItem="PQm-am-WLH" secondAttribute="bottom" id="C87-45-wil"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="bottom" secondItem="aIX-1p-OlM" secondAttribute="top" id="COA-qI-Pun"/>
+                            <constraint firstAttribute="trailing" secondItem="PQm-am-WLH" secondAttribute="trailing" id="DtV-bh-r52"/>
+                            <constraint firstItem="mZw-3C-XcF" firstAttribute="bottom" secondItem="cM5-tU-Bqz" secondAttribute="bottom" id="I0A-Jb-Ele"/>
+                            <constraint firstItem="mZw-3C-XcF" firstAttribute="top" secondItem="cM5-tU-Bqz" secondAttribute="top" id="KJZ-eB-1cN"/>
+                            <constraint firstItem="j1O-pO-zTk" firstAttribute="leading" secondItem="vJr-EH-4Mm" secondAttribute="leading" id="L7M-2M-IU9"/>
+                            <constraint firstItem="mZw-3C-XcF" firstAttribute="leading" secondItem="Lgi-fh-5HW" secondAttribute="leading" id="Leq-k8-kwb"/>
+                            <constraint firstItem="j1O-pO-zTk" firstAttribute="top" secondItem="PQm-am-WLH" secondAttribute="top" id="MTy-gO-qDK"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="top" secondItem="vJr-EH-4Mm" secondAttribute="top" constant="283" id="PhV-eF-05G"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="leading" secondItem="j1O-pO-zTk" secondAttribute="leading" id="PwJ-0c-nBO"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="top" secondItem="c4f-lc-sKX" secondAttribute="bottom" constant="8" symbolic="YES" id="VhN-P7-eeN"/>
+                            <constraint firstItem="CoZ-HG-dkR" firstAttribute="baseline" secondItem="c4f-lc-sKX" secondAttribute="baseline" id="WR7-aT-rlR"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="trailing" secondItem="j1O-pO-zTk" secondAttribute="trailing" id="gTq-ds-Yx2"/>
+                            <constraint firstItem="c4f-lc-sKX" firstAttribute="top" secondItem="RJ7-iu-UcA" secondAttribute="bottom" constant="169" id="gde-3j-LcA"/>
+                            <constraint firstItem="CoZ-HG-dkR" firstAttribute="trailing" secondItem="vJr-EH-4Mm" secondAttribute="trailingMargin" id="guh-8S-ItO"/>
+                            <constraint firstItem="Lgi-fh-5HW" firstAttribute="leading" secondItem="PQm-am-WLH" secondAttribute="leading" id="hEQ-9u-4gw"/>
+                            <constraint firstItem="cM5-tU-Bqz" firstAttribute="top" secondItem="c4L-Qf-SCy" secondAttribute="bottom" constant="21" id="hSZ-Ua-xDB"/>
+                            <constraint firstItem="mZw-3C-XcF" firstAttribute="trailing" secondItem="Lgi-fh-5HW" secondAttribute="trailing" id="iNM-ko-LLc"/>
+                            <constraint firstItem="c4L-Qf-SCy" firstAttribute="centerX" secondItem="cM5-tU-Bqz" secondAttribute="centerX" id="mqb-7f-gAW"/>
+                            <constraint firstAttribute="bottom" secondItem="PQm-am-WLH" secondAttribute="bottom" id="o5X-jE-Oax"/>
+                            <constraint firstItem="CoZ-HG-dkR" firstAttribute="centerY" secondItem="cM5-tU-Bqz" secondAttribute="centerY" id="ofh-W3-a6Z"/>
+                            <constraint firstAttribute="bottom" secondItem="Lgi-fh-5HW" secondAttribute="bottom" constant="76" id="qeW-5h-y7J"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PhV-eF-05G"/>
+                                <exclude reference="qeW-5h-y7J"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="container" destination="Lgi-fh-5HW" id="PTM-MK-fJf"/>
+                        <outlet property="monumentView" destination="c4L-Qf-SCy" id="2ui-jS-a6O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7lO-e9-Yzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1991" y="-53"/>
+        </scene>
+        <!--Honor Collection View Controller-->
+        <scene sceneID="Tfa-WZ-haN">
+            <objects>
+                <collectionViewController id="GVa-IZ-9Xn" customClass="HonorCollectionViewController" customModule="Scroll_of_Honor" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="3c1-uq-uQl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="284"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.72562167290000001" blue="0.53049441990000001" alpha="0.0" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="8" minimumInteritemSpacing="8" id="3ei-ls-yw4">
+                            <size key="itemSize" width="139" height="172"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="honorcell" id="5hC-he-msJ" customClass="HonoreeCollectionViewCell" customModule="Scroll_of_Honor" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="139" height="172"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="139" height="172"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xrq-Kw-BZP">
+                                            <rect key="frame" x="0.0" y="0.0" width="139" height="172"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" id="LGW-Nf-efg">
+                                                <rect key="frame" x="0.0" y="0.0" width="139" height="172"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <blurEffect style="dark"/>
+                                        </visualEffectView>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="748" image="defSoldPhoto.png" translatesAutoresizingMaskIntoConstraints="NO" id="EBS-RV-oF5">
+                                            <rect key="frame" x="8" y="8" width="123" height="136"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="121.5" id="4jj-xb-B8o"/>
+                                                <constraint firstAttribute="width" constant="123" id="Q4j-LY-kCY"/>
+                                                <constraint firstAttribute="height" constant="136" id="aZe-UJ-Y82"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="4jj-xb-B8o"/>
+                                                    <exclude reference="Q4j-LY-kCY"/>
+                                                    <exclude reference="aZe-UJ-Y82"/>
+                                                </mask>
+                                            </variation>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XqY-Jy-39j">
+                                            <rect key="frame" x="8" y="152" width="123" height="12"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="12" id="AdD-jX-HI5"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                            <size key="shadowOffset" width="1" height="-1"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <color key="backgroundColor" red="1" green="0.72562167290000001" blue="0.53049441990000001" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="EBS-RV-oF5" firstAttribute="leading" secondItem="5hC-he-msJ" secondAttribute="leadingMargin" id="7kW-fU-nwx"/>
+                                    <constraint firstAttribute="topMargin" secondItem="EBS-RV-oF5" secondAttribute="top" id="BLR-lU-Rvr"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="EBS-RV-oF5" secondAttribute="trailing" id="DEN-gQ-y5k"/>
+                                    <constraint firstItem="XqY-Jy-39j" firstAttribute="bottom" secondItem="5hC-he-msJ" secondAttribute="bottomMargin" id="GWf-7s-fsq"/>
+                                    <constraint firstItem="XqY-Jy-39j" firstAttribute="top" secondItem="EBS-RV-oF5" secondAttribute="bottom" constant="8" symbolic="YES" id="Mar-GX-acO"/>
+                                    <constraint firstItem="EBS-RV-oF5" firstAttribute="centerX" secondItem="5hC-he-msJ" secondAttribute="centerX" id="ilH-4W-DTR"/>
+                                    <constraint firstItem="XqY-Jy-39j" firstAttribute="trailing" secondItem="EBS-RV-oF5" secondAttribute="trailing" id="mQN-um-c61"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="XqY-Jy-39j" secondAttribute="trailing" constant="6" id="rFm-Ty-eex"/>
+                                    <constraint firstItem="XqY-Jy-39j" firstAttribute="leading" secondItem="EBS-RV-oF5" secondAttribute="leading" id="yjc-bj-oYS"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="rFm-Ty-eex"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <outlet property="imageView" destination="EBS-RV-oF5" id="J6a-JB-APi"/>
+                                    <outlet property="nameLabel" destination="XqY-Jy-39j" id="wNz-T2-zyn"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="GVa-IZ-9Xn" id="UoH-Dt-V9F"/>
+                            <outlet property="delegate" destination="GVa-IZ-9Xn" id="kMW-4e-uVS"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8S5-H8-CwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2724" y="-63"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="arrowWhite.png" width="500" height="500"/>
+        <image name="compassv3.png" width="500" height="500"/>
+        <image name="defSoldPhoto.png" width="320" height="320"/>
+        <image name="editedPhotoThing.png" width="1600" height="2848"/>
+        <image name="editedPhotoThingBlurred.png" width="1600" height="2848"/>
+        <image name="honoreeTabIcon" width="27" height="27"/>
+        <image name="mapTabIcon" width="25" height="25"/>
+    </resources>
+</document>

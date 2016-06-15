@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="Map_Points" syncable="YES">
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time_updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="honoree" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table_honorees" inverseName="mapPoints" inverseEntity="Table_honorees" syncable="YES"/>
+    </entity>
+    <entity name="Table_honorees" syncable="YES">
+        <attribute name="beacon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="class_year" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hometown" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="honoree_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="img" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="time_updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="war_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="mapPoints" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Map_Points" inverseName="honoree" inverseEntity="Map_Points" syncable="YES"/>
+        <relationship name="services" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table_services" inverseName="honorees" inverseEntity="Table_services" syncable="YES"/>
+        <relationship name="wars" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table_wars" inverseName="honoree" inverseEntity="Table_wars" syncable="YES"/>
+    </entity>
+    <entity name="Table_services" syncable="YES">
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="service_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="service_name" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="time_updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="honorees" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table_honorees" inverseName="services" inverseEntity="Table_honorees" syncable="YES"/>
+    </entity>
+    <entity name="Table_wars" syncable="YES">
+        <attribute name="deleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="time_updated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="war_id" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="war_name" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="honoree" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Table_honorees" inverseName="wars" inverseEntity="Table_honorees" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Table_honorees" positionX="-63" positionY="-18" width="128" height="283"/>
+        <element name="Table_services" positionX="234" positionY="-36" width="128" height="120"/>
+        <element name="Table_wars" positionX="234" positionY="152" width="128" height="118"/>
+        <element name="Map_Points" positionX="-234" positionY="108" width="128" height="150"/>
+    </elements>
+</model>
